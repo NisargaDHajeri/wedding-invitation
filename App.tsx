@@ -1,14 +1,13 @@
-import { useState } from "react";
-import GaneshaLoader from "./components/GaneshaLoader";
-import SparkleEffects from "./components/SparkleEffects";
-import AudioPlayer from "./components/AudioPlayer";
-import HeroSection from "./components/HeroSection";
-import CoupleSection from "./components/CoupleSection";
-import TimelineSection from "./components/TimelineSection";
-import SaveTheDateSection from "./components/SaveTheDateSection";
-import MemoryGallery from "./components/MemoryGallery";
-import MapSection from "./components/MapSection";
-import BlessingsAndFooter from "./components/BlessingsAndFooter";
+import GaneshaLoader from "./GaneshaLoader";
+import SparkleEffects from "./SparkleEffects";
+import AudioPlayer from "./AudioPlayer";
+import HeroSection from "./HeroSection";
+import CoupleSection from "./CoupleSection";
+import TimelineSection from "./TimelineSection";
+import SaveTheDateSection from "./SaveTheDateSection";
+import MemoryGallery from "./MemoryGallery";
+import MapSection from "./MapSection";
+import BlessingsAndFooter from "./BlessingsAndFooter";
 
 export default function App() {
   const [loading, setLoading] = useState(true);
